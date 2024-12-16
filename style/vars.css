@@ -1,0 +1,37 @@
+/* style/vars.css */
+
+:root {
+  /* Цветовые переменные */
+  --color-background: rgba(232, 232, 232, 1);
+  --color-text: #2a2828;
+  --color-secondary: #6f96d1;
+  --color-accent: #527ebb;
+  --color-red: #f00;
+  --color-blue: #0066ff;
+  --color-border: #2a2828;
+  --color-white: #fff;
+  --color-stroke: #2a2828;
+  --color-hover: #4b75b5;
+
+  /* Шрифтовые переменные */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+  --font-size-header: 20px;
+  --font-size-title: 40px;
+
+  /* Отступы и размеры */
+  --spacing-small: 6px;
+  --spacing-medium: 12px;
+  --spacing-large: 20px;
+
+  /* Радиусы скругления */
+  --border-radius-small: 2px;
+  --border-radius-medium: 4px;
+  --border-radius-large: 20px;
+
+  /* Тени */
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

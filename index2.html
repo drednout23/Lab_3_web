@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/vars.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Новини</title>
+</head>
+<body>
+  <div class="exercise-1">
+    <!-- Логотип -->
+    <div class="logo">
+      <a href=index.html class="clickable">
+        <img class="site-logo" src="images/logo1.png" alt="Логотип"/>
+      </a>
+    </div>
+
+    <!-- Фон хедера -->
+    <div class="bg">
+      <a href="#" class="clickable">
+        <img class="bgs" src="images/bgs.png" alt="Фон"/>
+      </a>
+    </div>
+
+    <!-- Меню 1: Основне меню -->
+    <div class="menu-1">
+      <img class="bg4" src="images/bg4.png" alt="Фон меню"/>
+      <div class="menu">
+        <div class="subscribe2">
+          <a href="#" class="clickable">
+            <img class="subscribe-icon" src="images/icon-subscribe.png" alt="Іконка Підписка" />
+            <div class="heading2">
+              <div class="div7">Підписка</div>
+            </div>
+          </a>
+        </div>
+        <div class="price2">
+          <a href="#" class="clickable">
+            <img class="price-icon" src="images/icon-price.png" alt="Іконка Прайс" />
+            <div class="heading2">
+              <div class="div7">Прайс</div>
+            </div>
+          </a>
+        </div>
+        <div class="orders">
+          <a href="#" class="clickable">
+            <img class="orders-icon" src="images/icon-orders.png" alt="Іконка Замовлення" />
+            <div class="heading2">
+              <div class="div7">Замовлення</div>
+            </div>
+          </a>
+        </div>
+        <div class="internet-store">
+          <a href="#" class="clickable">
+            <img class="internet-store-icon" src="images/icon-internet-store.png" alt="Іконка Інтернет-магазин" />
+            <div class="heading2">
+              <div class="div7">Інтернет-магазин</div>
+            </div>
+          </a>
+        </div>
+        <div class="reports">
+          <a href="#" class="clickable">
+            <img class="reports-icon" src="images/icon-reports.png" alt="Іконка Звіти" />
+            <div class="heading2">
+              <div class="div7">Звіти</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Меню 2: Доповнене меню -->
+    <div class="menu-2">
+      <div class="bg6">
+        <img class="bg6" src="images/vector.png" alt="Фон меню 2 лівий" />
+
+        <div class="menu2">
+          <div class="magazine">
+            <a href="#" class="div8 clickable">ГАЗЕТА &gt;</a>
+          </div>
+          <div class="items">
+            <a href="#" class="div8 clickable">ТОВАРИ &gt;</a>
+          </div>
+          <div class="partners">
+            <a href="#" class="div8 clickable">ПАРТНЕРИ &gt;</a>
+          </div>
+          <div class="subscribe3">
+            <a href="#" class="div8 clickable">ПОДПИСКА &gt;</a>
+          </div>
+          <div class="registation">
+            <a href="#" class="div9 clickable">РЕГІСТРАЦІЯ &gt;</a>
+          </div>
+        </div>
+      </div>
+      <div class="login">
+        <div class="body">
+          <div class="login2">
+            <div class="headline">
+              <div class="div10">Логін</div>
+            </div>
+            <input type="text" class="input" placeholder="Введіть ваш логін" />
+          </div>
+          <div class="password">
+            <div class="headline">
+              <div class="div20">Пароль</div>
+            </div>
+            <input type="password" class="input1" placeholder="Введіть ваш пароль" />
+          </div>
+        </div>
+        <button class="button5">Увійти</button>
+      </div>
+    </div>
+
+    <div class="form-wrapper">
+      <form class="user-form" role="form" aria-labelledby="form-title" id="userForm" action="redirect.html" method="get" novalidate>
+        <div class="form-container">
+          <div class="form-content">
+            <!-- Іконка форми -->
+            <img src="images/TRIZ.png" alt="Іконка форми" class="form-icon">
+
+            <!-- Заголовок форми -->
+            <h1 class="form-title" id="form-title">Поділися, будь ласка, інформацією</h1>
+
+            <!-- Примітка під заголовком -->
+            <p class="form-note">(Тільки англійські символи)</p>
+
+            <!-- Поле: Прізвище -->
+            <label for="surname" class="visually-hidden">Прізвище</label>
+            <div class="input-group">
+              <input type="text" id="surname" class="input-field" placeholder="Прізвище" required aria-label="Прізвище" aria-describedby="surname-indicator">
+              <span class="error-indicator" id="surname-indicator">!EN</span>
+            </div>
+
+            <!-- Поле: Ім'я -->
+            <label for="firstname" class="visually-hidden">Ім'я</label>
+            <div class="input-group">
+              <input type="text" id="firstname" class="input-field" placeholder="Ім'я" required aria-label="Ім'я" aria-describedby="firstname-indicator">
+              <span class="error-indicator" id="firstname-indicator">!EN</span>
+            </div>
+
+            <!-- Поле: По-батькові -->
+            <label for="patronymic" class="visually-hidden">По-батькові</label>
+            <div class="input-group">
+              <input type="text" id="patronymic" class="input-field" placeholder="По-батькові" required aria-label="По-батькові" aria-describedby="patronymic-indicator">
+              <span class="error-indicator" id="patronymic-indicator">!EN</span>
+            </div>
+
+            <!-- Вибір віку -->
+            <label for="age" class="visually-hidden">Вік</label>
+            <div class="input-group">
+              <select id="age" class="input-field" required aria-label="Вік" aria-describedby="age-indicator">
+                <option value="" disabled selected>Виберіть ваш вік</option>
+                <option value="до 16">до 16</option>
+                <option value="16-21">16-21</option>
+                <option value="21-27">21-27</option>
+                <option value="27-35">27-35</option>
+                <option value="35-45">35-45</option>
+                <option value="45-55">45-55</option>
+                <option value="більше 55">більше 55</option>
+              </select>
+              <span class="error-indicator" id="age-indicator">!EN</span>
+            </div>
+
+            <!-- Текстове поле: Про себе -->
+            <label for="about" class="visually-hidden">Про себе</label>
+            <div class="input-group">
+              <textarea id="about" class="textarea-field" placeholder="Про себе" required aria-label="Про себе" aria-describedby="about-indicator"></textarea>
+              <span class="error-indicator" id="about-indicator">!EN</span>
+            </div>
+
+            <!-- Кнопка відправки -->
+            <button type="submit" class="submit-button" id="submitButton" disabled>Надіслати інформацію</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Підключення зовнішнього файлу скрипта -->
+    <script src="script.js"></script>
+
+         
+        <div class="news-bg">
+        
+<nav class="side-menu">
+  <div class="heading4">
+    <div class="div5">Меню сайту</div>
+  </div>
+  <div class="points2">
+    <a href=index.html class="homepage clickable">
+      &gt; Головна сторінка
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="news clickable">
+      &gt; Новини
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="about-firm clickable">
+      &gt; Про фірму
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="price clickable">
+      &gt; Прайс-ліст
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="sitemap clickable">
+      &gt; Мапа сайту
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="new-vacansies clickable">
+      &gt; Нові вакансії
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="subscribe clickable">
+      &gt; Підписка
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="online-store clickable">
+      &gt; Інтернет-магазин
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="farm-navigator clickable">
+      &gt; Фарм-навігатор
+      <span class="stroke"></span>
+    </a>
+    <a href="#" class="how-find-us clickable">
+      &gt; Як до нас проїхати
+      <span class="stroke"></span>
+    </a>
+  </div>
+</nav>
+      </div>
+
+     
+</body>
+</html>

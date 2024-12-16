@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/vars.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Дякуємо!</title>
+
+
+</head>
+<body>
+<section class="thank-you-container" aria-labelledby="success-heading">
+  <div class="content-wrapper">
+    <img src="images/TRIZ.png" alt="Іконка форми" class="form-icon">
+    <h1 id="success-heading" class="success-message">
+      Дякуємо за заповнення форми!
+      <br />
+      Ви будете автоматично перенаправлені на головну сторінку через 3 секунди.
+    </h1>
+    <p class="redirect-message">
+      Якщо перенаправлення не відбулося, натисніть
+    </p>
+    <button
+            class="redirect-button"
+            onclick="index.html"
+            aria-label="Перейти на головну сторінку"
+    >
+      Тут
+    </button>
+  </div>
+</section>
+
+<script>
+  // Автоматичне перенаправлення через 3 секунди (3000 мілісекунд)
+  setTimeout(function() {
+    window.location.href = 'index.html';
+  }, 3000);
+</script>
+</body>
+</html>
